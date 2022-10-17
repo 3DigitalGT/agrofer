@@ -1,0 +1,13 @@
+[submodule "addons_usability"]
+	path = addons_usability
+	url = git@github.com:3DigitalGT/addons_usability.git
+[submodule "addons_gen"]
+	path = addons_gen
+	url = git@github.com:3DigitalGT/addons_gen.git
+	branch = release/15.0
+[submodule "addons_purchase"]
+	path = addons_purchase
+	url = git@github.com:3DigitalGT/addons_purchase.git
+[submodule "addons_sales"]
+	path = addons_sales
+	url = git@github.com:3DigitalGT/addons_sales.git

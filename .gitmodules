@@ -11,3 +11,6 @@
 [submodule "addons_sales"]
 	path = addons_sales
 	url = git@github.com:3DigitalGT/addons_sales.git
+[submodule "addons_pos"]
+	path = addons_pos
+	url = git@github.com:3DigitalGT/addons_pos.git

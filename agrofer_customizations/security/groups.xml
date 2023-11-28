@@ -1,0 +1,7 @@
+<odoo>
+    <record id="group_product_cost_manager" model="res.groups">
+        <field name="name">Ver Costos</field>
+        <field name="comment">Grupo para poder ver los costos de productos</field>
+    </record>
+
+</odoo>

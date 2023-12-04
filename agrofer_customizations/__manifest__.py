@@ -2,10 +2,10 @@
 {
     'name': 'Personalizaciones Agrofer',
     'summary': """
-        Personalizaciones generales y Acceso a la    información de los costos del producto en vistas.
+        Personalizaciones generales y Acceso a la información de los costos del producto en vistas.
     """,
     'description': "Personalizaciones generales y Acceso a la información de los costos del producto en vistas",
-    'version': '15.0.0.0',
+    'version': '15.0.0.1',
     'category': 'Customizations',
     'complexity': 'easy',
     'author': 'Proyectos Agiles, S.A. - Inteligos',

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+   <t t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+       <xpath expr="//t[@t-if='receipt.pos_name']" position="after">
+            <div class="document text-center" style="font-weight:bold;">
+                <t t-if="receipt.company_legal_name">
+                   <div style="font-weight:bold;"><t t-esc="receipt.company_legal_name"/></div>
+                   <div style="font-weight:bold;"><t t-esc="receipt.company_street"/></div>
+               </t>
+            </div>
+        </xpath>
+   </t>
+
+</templates>

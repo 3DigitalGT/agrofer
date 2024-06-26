@@ -11,12 +11,20 @@
     'author': 'Proyectos Agiles, S.A. - Inteligos',
     'company': 'Proyectos Agiles, S.A. - Inteligos',
     'maintainer': 'Proyectos Agiles, S.A. - Inteligos',
-    'depends': ['base', 'sale', 'product'],
+    'depends': ['base', 'sale', 'product', 'pos_inteligos_fel'],
     'data': [
         'security/groups.xml',
         'views/product_views.xml',
         'views/sale_order_form_inherited.xml'
     ],
+    "assets": {
+        'point_of_sale.assets': [
+            'agrofer_customizations/static/src/js/*.js',
+        ],
+        'web.assets_qweb': [
+            'agrofer_customizations/static/src/xml/**/*',
+        ],
+    },
     'license': 'LGPL-3',
     'installable': True,
     'application': False,

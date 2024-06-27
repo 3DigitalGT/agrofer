@@ -6,7 +6,7 @@
             <div class="document text-center" style="font-weight:bold;">
                 <t t-if="receipt.company_legal_name">
                    <div style="font-weight:bold;"><t t-esc="receipt.company_legal_name"/></div>
-                   <div style="font-weight:bold;"><t t-esc="receipt.company_street"/></div>
+                   <div style="font-weight:bold;"><t t-esc="receipt.pos_address_complete"/></div>
                </t>
             </div>
         </xpath>
